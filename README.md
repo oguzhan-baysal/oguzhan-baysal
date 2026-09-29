@@ -2,7 +2,7 @@
   <img src="assets/header.svg" alt="Oğuzhan Baysal — solo builder: systems, contracts, backend, ops" width="100%">
 </div>
 
-**I build and run software products end to end** — contracts, backend, ops, and the boring parts that keep them alive 24/7. Solo builder, based in Adana, Türkiye.
+**I build and run software products end to end** — contracts, backend, ops, and the boring parts that keep them alive 24/7. Based in Adana, Türkiye.
 
 ## Stack
 
