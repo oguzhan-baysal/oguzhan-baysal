@@ -30,13 +30,13 @@
       .name { fill: #ecfdf5; font-size: 56px; font-weight: 700; letter-spacing: 2px; }
       .role { fill: #34d399; fill-opacity: 0.9; font-size: 14px; letter-spacing: 5.4px; }
       .foot { fill: #10b981; fill-opacity: 0.7; font-size: 12.5px; letter-spacing: 1.6px; }
-      .typer  { transform-origin: 48px 0; transform: scaleX(0); animation: type 2.2s steps(19, end) 0.9s both; }
-      .caret  { transform-origin: 0 0; transform: translateX(0); animation: caret 2.2s steps(19, end) 0.9s both, blink 1.05s steps(1, end) 3.2s infinite; }
+      .typer  { transform-origin: 48px 0; animation: type 2.2s steps(19, end) forwards; }
+      .caret  { animation: caret 2.2s steps(19, end) forwards, blink 1.05s steps(1, end) 2.2s infinite; }
       .dot    { animation: pulse 2.4s ease-in-out infinite; }
       .scan   { animation: scan 7.5s linear infinite; }
-      .bar    { transform-origin: 48px 0; transform: scaleX(0); animation: draw 1.4s ease-out 0.35s both; }
+      .bar    { transform-origin: 48px 0; animation: draw 1.4s ease-out forwards; }
       @keyframes type  { from { transform: scaleX(0); } to { transform: scaleX(1); } }
-      @keyframes caret { from { transform: translateX(0); } to { transform: translateX(188px); } }
+      @keyframes caret { from { transform: translateX(-188px); } to { transform: translateX(0); } }
       @keyframes blink { 0%, 49% { opacity: 1; } 50%, 100% { opacity: 0; } }
       @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.28; } }
       @keyframes scan  { from { transform: translateY(-90px); } to { transform: translateY(390px); } }
@@ -64,7 +64,7 @@
     <g clip-path="url(#typing)">
       <text class="mono body" x="48" y="108">verify, don't claim</text>
     </g>
-    <rect class="caret" x="48" y="90" width="9" height="21" fill="#34d399"/>
+    <rect class="caret" x="236" y="90" width="9" height="21" fill="#34d399"/>
 
     <!-- identity -->
     <text class="mono name" x="48" y="180">O&#286;UZHAN BAYSAL</text>
