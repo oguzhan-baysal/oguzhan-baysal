@@ -10,7 +10,7 @@
 
 ---
 
-🧱 **[LaunchpadKit](https://launchpadkit.dev)** — deployable launchpad infrastructure for new EVM chains.
+🌐 **[oguzhanbaysal.vercel.app](https://oguzhanbaysal.vercel.app/)** — portfolio · 🧱 **[LaunchpadKit](https://launchpadkit.dev)** — deployable launchpad infrastructure for new EVM chains.
 
 📫 **[oguzhanbaysal@outlook.com](mailto:oguzhanbaysal@outlook.com)** · 📍 Adana, Türkiye
 
